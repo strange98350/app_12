@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        tools:context=".Screen2">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAndroid"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/purple_200">
+
+        <TextView
+            android:id="@+id/textAndroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Android Development"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardMachine"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/purple_200">
+
+        <TextView
+            android:id="@+id/textMachine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Machine Learning"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBlock"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/purple_200">
+
+        <TextView
+            android:id="@+id/textBlock_Chain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BlockChain Development"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/purple_200">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Web Development"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/purple_200">
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="IOS App Development"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/purple_200">
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Cloud computing"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call me"
+        android:layout_gravity="center"
+        android:layout_columnSpan="2"
+        android:layout_row="1"/>
+
+   </GridLayout>
+</ScrollView>

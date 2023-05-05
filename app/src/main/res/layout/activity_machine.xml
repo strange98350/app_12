@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    tools:context=".machineActivity">
+
+
+    <TextView
+        android:id="@+id/textmachine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Machine Learning"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:rowCount="3"
+        tools:context=".machineActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image13"
+        android:layout_width="150dp"
+        android:layout_height="187dp"
+        android:src="@drawable/python"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_margin="15dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image14"
+        android:layout_width="150dp"
+        android:layout_height="187dp"
+        android:src="@drawable/rr"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_margin="15dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image15"
+        android:layout_width="150dp"
+        android:layout_height="187dp"
+        android:src="@drawable/pytorch"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_margin="15dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image16"
+        android:layout_width="150dp"
+        android:layout_height="187dp"
+        android:src="@drawable/tensor"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_margin="15dp" />
+    </GridLayout>
+
+</LinearLayout>
